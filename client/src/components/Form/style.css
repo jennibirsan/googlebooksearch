@@ -1,0 +1,16 @@
+form{
+    background: lightblue;
+    border-radius: 15px;
+}
+.BookSearchLabel{
+    margin-left:20px;
+    margin-top: 10px
+}
+.submitBtn{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.form-control{
+    margin-left: 20px;
+    width: 95%
+}
