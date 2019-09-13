@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import API from "../utils/API";
 import Jumbotron from "../components/Jumbotron";
 import { Container, Row, Col } from "../components/Grid";
-import SearchForm from "../components/Form";
-import SearchResult from "../components/Search"
+import Form from "../components/Form";
+import Search from "../components/Search"
 
 
 class SearchBooks extends Component {
@@ -57,11 +57,12 @@ class SearchBooks extends Component {
         // console.log(event)
         event.preventDefault();
         console.log(this.state.books)
+        console.log(event.target.id)
         let savedBooks = this.state.books.filter(book => book.id === event.target.id)
         savedBooks = savedBooks[0];
+        console.log(savedBooks)
         API.saveBook(savedBooks)
-            .then(this.setState({ message: alert("Your book is saved") }))
-            .catch(err => console.log(err))
+        .then(this.setState({ message: alert("Your book is saved") })).catch(err => console.log("ERROR", err))
     }
     render() {
         return (
@@ -72,7 +73,7 @@ class SearchBooks extends Component {
                 <Container>
                     <Row>
                         <Col size="12">
-                            <SearchForm
+                            <Form
                                 handleFormSubmit={this.handleFormSubmit}
                                 handleInputChange={this.handleInputChange}
                             />
@@ -81,7 +82,7 @@ class SearchBooks extends Component {
                 </Container>
                 <br></br>
                 <Container>
-                    <SearchResult books={this.state.books} handleSavedButton={this.handleSavedButton} />
+                    <Search books={this.state.books} handleSavedButton={this.handleSavedButton} />
                 </Container>
             </Container>
         )

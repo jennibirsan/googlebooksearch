@@ -1,19 +1,23 @@
 .card{
     border-radius: 10px;
-    background-color: lightgrey
+    background-color: lightgrey;
+    font-family: 'Raleway', sans-serif;
 }
 
 .search-list{
     border-radius: 15px;
-    background-color: lightblue
+    background-color: lightblue;
+    font-family: 'Raleway', sans-serif;
 }
 
 .saveBook {
     border-radius: 5px;
-    margin-left: 10px
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .viewBook {
     border-radius: 5px;
-    margin-left: 5px
+    margin-left: 5px;
+    font-family: 'Raleway', sans-serif;
 }

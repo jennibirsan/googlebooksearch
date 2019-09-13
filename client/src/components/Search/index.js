@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import {Row, Col} from "../Grid"
 
-const SearchResult = props => {
+const Search = props => {
     return (props.books.length === 0) ? (
         <div className="card">
             <div className="card-body player">
@@ -57,4 +57,4 @@ const SearchResult = props => {
             </div>
         )
 }
-export default SearchResult
+export default Search
