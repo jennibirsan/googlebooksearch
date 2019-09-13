@@ -1,12 +1,13 @@
 .card{
     border-radius: 10px;
-    background-color: lightgrey;
+    background-color: #cecdd3;
     font-family: 'Raleway', sans-serif;
+    padding: 20px;
 }
 
 .search-list{
     border-radius: 15px;
-    background-color: lightblue;
+    background-color: #e5e8ed;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -20,4 +21,8 @@
     border-radius: 5px;
     margin-left: 5px;
     font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    color: #343a40;
 }

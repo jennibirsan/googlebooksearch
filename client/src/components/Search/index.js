@@ -40,15 +40,16 @@ const Search = props => {
                                     </Row>
                                     <br></br>
                                     <Row className="buttonDiv ">
-                                        <button className="saveBook btn btn-primary" id={book.id} onClick={(event) => props.handleSavedButton(event)}>
+                                        <button className="saveBook btn btn-outline-primary" id={book.id} onClick={(event) => props.handleSavedButton(event)}>
                                             Save Book
                                         </button>
                                         <a href={book.link} target="_blank" rel="noopener noreferrer">
-                                            <button className="viewBook btn btn-success">
+                                            <button className="viewBook btn btn-outline-dark">
                                                 View Book
                                         </button>
                                         </a>
                                     </Row>
+          
                                 </li>
                             );
                         })}

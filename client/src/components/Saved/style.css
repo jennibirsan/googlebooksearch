@@ -1,13 +1,15 @@
 .card{
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: #cad7e6;
   font-family: 'Raleway', sans-serif;
+  color: #343a40
 }
 
 .saved-list{
   border-radius: 15px;
-  background-color: lightyellow;
+  background-color: #cad7e6;
   font-family: 'Raleway', sans-serif;
+  color: #343a40
 }
 
 .deleteBook {

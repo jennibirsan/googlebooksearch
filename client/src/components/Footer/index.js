@@ -4,7 +4,11 @@ import "./style.css";
 const Footer = () => (
 	<footer className = "page-footer">
 		<div className = "container-fluid text-center">
-			<p>Jenni Birsan</p>
+		
+			<p id="github">
+<a href="https://github.com/jennibirsan/googlebooksearch" target="_blank" rel="noopener noreferrer">GitHub </a>
+
+</p>
 		</div>	
 	</footer>
 );

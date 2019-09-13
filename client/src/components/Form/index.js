@@ -15,7 +15,7 @@ const Form = props => {
                     onChange={props.handleInputChange}
                 />
             </div>
-            <button type="submit" className="submitBtn btn btn-primary" onClick={props.handleFormSubmit}>
+            <button type="submit" className="submitBtn btn btn-dark" onClick={props.handleFormSubmit}>
                 Submit
             </button>
         </form>
