@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 import Jumbotron from "../components/Jumbotron";
-import { Container} from "../components/Grid";
+import { Container } from "../components/Grid";
 import Saved from "../components/Saved"
 
 class SaveBook extends Component {
@@ -26,7 +26,7 @@ class SaveBook extends Component {
     render() {
         return (
             <Container fluid className="container">
-                                <Jumbotron>
+                <Jumbotron>
                     <h1 className="text-white">Look at Your Saved Books Here</h1>
                 </Jumbotron>
 
